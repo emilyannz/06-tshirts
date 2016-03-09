@@ -1,1 +1,8 @@
 @import 'box-sizing';
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+@import 'grid';

@@ -1,0 +1,11 @@
+.outer-container {
+
+}
+
+.container {
+  margin: auto;
+}
+
+  &__row {
+    display: flex;
+  }
