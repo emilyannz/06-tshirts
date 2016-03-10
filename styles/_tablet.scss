@@ -26,13 +26,15 @@ $brand-primary: #3473b5;
 
 .shop-item__btns {
   flex-direction: column;
-
+  align-self: stretch;
 }
 
 .shop-btn {
   border: 0;
   border-top: $brand-border;
   border-left: $brand-border;
+  display: flex;
+  align-items: center;
 
   &:first-of-type {
     border-top: 0;
@@ -40,6 +42,8 @@ $brand-primary: #3473b5;
 }
 
 .dropdown__options {
+
+  display: flex;
   flex-direction: row;
   right: 100%;
   bottom: 50%;

@@ -3,16 +3,14 @@
 }
 
 .shop-btn {
-  display: flex;
-  position: inherit;
   flex-grow: 1;
-  flex-shrink: 1;
-  justify-content: center;
-  padding: 1.5rem;
-  font-size: 2rem;
+
+  padding: 0.5rem 0.5rem;
+  font-size: 1rem;
   border-top: $brand-border;
   border-right: $brand-border;
 
+  text-align: center;
 
   &:hover {
     background: $brand-primary;
@@ -30,12 +28,11 @@
   display: none;
   position: absolute;
   flex-direction: column;
-  right: 50%;
+  font-size: 1rem;
   bottom: 100%;
-
+  right: 50%;
   transform: translate(50%, 0);
   border: $brand-border;
-
   background: $brand-white;
   color: $brand-primary;
   text-align: center;
@@ -53,7 +50,7 @@
 }
 
 .dropdown__options-item {
-  padding: 1.5rem;
+  padding: 0.5rem;
   border-top: $brand-border;
 
   &:first-of-type {
@@ -61,7 +58,7 @@
   }
 
   &:hover {
-    font-size: 1.2em;
+    font-size: 0.5rem;
   }
 }
 
