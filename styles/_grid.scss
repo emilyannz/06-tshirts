@@ -2,12 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  max-width: 60rem;
 }
 
 .container {
   width: 75%;
-  margin: auto;
+  overflow: auto;
 }
 
 .row {
@@ -19,6 +19,6 @@
   flex-basis: (100% / 3);
   flex-grow: 1;
   width: (100% / 3);
-  min-width: 17rem;
+  min-width: 15rem;
   max-width: $max-content-width;
 }
