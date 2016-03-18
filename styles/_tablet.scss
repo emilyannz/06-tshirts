@@ -42,8 +42,7 @@ $brand-primary: #3473b5;
 }
 
 .dropdown__options {
-
-  display: flex;
+  display: none;
   flex-direction: row;
   right: 100%;
   bottom: 50%;
@@ -58,5 +57,4 @@ $brand-primary: #3473b5;
   &:first-of-type {
     border-left: 0;
   }
-
 }
