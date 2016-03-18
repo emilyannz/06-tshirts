@@ -2,9 +2,14 @@
 // @import 'normalize';
 
 @import 'variables';
-@import 'font-awesome';
 @import 'base';
+@import 'font-awesome';
 @import 'grid';
 @import 'shop-item';
 @import 'shop-btn';
-@import 'dropdown';
+
+//Comment to initiate assignment//
+//
+@media (min-width: 500px) and (max-width: 960px) {
+  @import 'tablet';
+}

@@ -1,0 +1,60 @@
+
+$brand-primary: #3473b5;
+
+.row {
+  flex-direction: column;
+}
+
+.grid-item {
+  width: 100%;
+}
+
+.shop-item {
+  flex-direction: row;
+  align-items: center;
+}
+
+.shop-item__shirt {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.shop-item__info {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.shop-item__btns {
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.shop-btn {
+  border: 0;
+  border-top: $brand-border;
+  border-left: $brand-border;
+  display: flex;
+  align-items: center;
+
+  &:first-of-type {
+    border-top: 0;
+  }
+}
+
+.dropdown__options {
+  display: none;
+  flex-direction: row;
+  right: 100%;
+  bottom: 50%;
+  transform: translate(0, 50%);
+  align-items: left;
+}
+
+.dropdown__options-item {
+  border-left: $brand-border;
+  border-top: 0;
+
+  &:first-of-type {
+    border-left: 0;
+  }
+}
